@@ -60,7 +60,11 @@ Les modèles `Ridge` (pénalité L2) et `Lasso` (pénalité L1) sont entraînés
 
 ## Résultats
 
-![alt text](image.png)
+| Modele | R2 Train | R2 Test | MAE Test ($) | RMSE Test ($) | Ecart R2 Train-Test |
+|--------|----------|---------|----------|-----------|-----------------|
+|Lin. Regression |  0.9841 | 0.9742  |     87,636  |     106,779  |         0.0099
+| Ridge (a=0.01) |  0.9841 | 0.9757  |     83,709  |     103,738  |         0.0084
+| Lasso (a=1000) |  0.9818 | 0.9768  |     76,396  |     101,263  |         0.0050
 
 
 Le modèle Lasso obtient la meilleure performance en terme de réduction des erreurs et éffectue une sélection de variables en annulant les coefficients les moins pertinents (ici 8 coefficients sur 36).
