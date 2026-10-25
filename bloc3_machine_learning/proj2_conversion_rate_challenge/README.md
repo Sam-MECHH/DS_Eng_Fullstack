@@ -110,7 +110,11 @@ Taux par statut utilisateur :
 
 ### Performances des modeles sur l'ensemble de validation
 
-![alt text](image.png)
+| Modèle | Score F1 | Precision | Recall  |
+|---|---|---|---|
+| XGBoost  |  0.7650  |   0.8084 | 0.7260 |
+| Random Forest  |  0.7613   |  0.7830 | 0.7407 |
+| Régression logistique  |  0.7604   |  0.8620 | 0.6803 |
 
 ### Hyperparametres du meilleur modele (Gradient Boosting)
 
